@@ -8,8 +8,8 @@ public class CompanyInfo {
        System.out.println("Smart Electronics");
     }
     static void displaysHours(){
-        System.out.println("Monday - Friday 8 am - 6m"
+        System.out.println("Monday - Friday 8 am - 6m\n"
                             +"Satuday       8 am - noon\n"
-                            +"Sunday         Closed");
+                            +"Sunday         Closed\n");
     }       
 }

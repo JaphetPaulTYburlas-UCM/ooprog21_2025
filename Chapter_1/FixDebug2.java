@@ -1,11 +1,13 @@
 
-public class FixDebug One
+public class FixDebugOne
 {
-/* This program displays a greeting */
-public static void Main(String args)
-{
-Systm.out.println("Hello World!")
+    /* This program displays a greeting */
+    public static void main(String[] args)
+    {
+        System.out.println("Hello World!");
+    }
 }
+
 /*
 List down the spotted bugs below:
 e.g.

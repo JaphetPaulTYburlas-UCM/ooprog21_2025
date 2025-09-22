@@ -1,4 +1,4 @@
-public class Favorite {
+public class FavoriteSong {
     public static void main(String[] args) {
           System.out.print("Mabuti pa sa lotto, may pag-asang manalo\r\n" + //
                         "'Di tulad sa'yo, imposible");

@@ -1,3 +1,5 @@
+class FavoriteSong{
+public static void(String[] args){
   System.out.print("Mabuti pa sa lotto, may pag-asang manalo\r\n" + //
                         "'Di tulad sa'yo, imposible");
         System.out.println("Prinsesa ka, ako'y dukha\r\n" + //
@@ -10,3 +12,5 @@
                         "Kahit may gusto ka, 'di mo masabi\r\n" + //
                         "Hindi ako 'yung tipo, nagbibigay motibo\r\n" + //
                         "Conservative ako kaya 'di maaari");   
+}
+}

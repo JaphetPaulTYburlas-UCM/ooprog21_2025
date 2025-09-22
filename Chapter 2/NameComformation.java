@@ -9,7 +9,7 @@ public class NameComfermation {
                 System.exit(0);
             }
             int confirm = JOptionPane.showConfirmDialog(null,
-                    "Do you want your name to be shown?",
+                    "Do you want to proceed",
                     "Confirm",
                     JOptionPane.YES_NO_OPTION);
 

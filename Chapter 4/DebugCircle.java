@@ -25,8 +25,4 @@
     + "The diameter is  " + diameter + "the area of the circle " + area );
     return area;
     }
-    public static void main(String[] args) {
-        DebugCircle circle = new DebugCircle(5);
-        circle.getArea();
-    }
     }

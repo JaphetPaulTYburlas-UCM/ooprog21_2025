@@ -36,33 +36,3 @@ public class DebugFour3 {
     }
 }
 
-// DebugBox class in same file
-class DebugBox {
-    private int width;
-    private int length;
-    private int height;
-
-    // Default constructor
-    public DebugBox() {
-        width = 1;
-        length = 1;
-        height = 1;
-    }
-
-    // Constructor with args
-    public DebugBox(int w, int l, int h) {
-        width = w;
-        length = l;
-        height = h;
-    }
-
-    public void showData() {
-        System.out.println(" Width: " + width);
-        System.out.println(" Length: " + length);
-        System.out.println(" Height: " + height);
-    }
-
-    public double getVolume() {
-        return width * length * height;
-    }
-}

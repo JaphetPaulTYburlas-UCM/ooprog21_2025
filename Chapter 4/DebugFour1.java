@@ -16,29 +16,3 @@ public class DebugFour1 {
     }
 }
 
-// DebugCircle class in the same file
-class DebugCircle {
-    private int radius;
-
-    // Constructor that accepts radius
-    public DebugCircle(int r) {
-        if (r < 0) {
-            System.out.println("Radius cannot be negative. Setting radius to 0.");
-            radius = 0;
-        } else {
-            radius = r;
-        }
-    }
-
-    public int getRad() {
-        return radius;
-    }
-
-    public int getDiam() {
-        return radius * 2;
-    }
-
-    public double getArea() {
-        return Math.PI * radius * radius;
-    }
-}

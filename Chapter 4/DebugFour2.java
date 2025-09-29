@@ -32,28 +32,3 @@ public class DebugFour2 {
     }
 }
 
-// DebugPen class in the same file
-class DebugPen {
-    private String color;
-    private String point;
-
-    // Default constructor
-    public DebugPen() {
-        color = "blue";
-        point = "medium";
-    }
-
-    // Constructor with arguments
-    public DebugPen(String c, String p) {
-        color = c;
-        point = p;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public String getPoint() {
-        return point;
-    }
-}

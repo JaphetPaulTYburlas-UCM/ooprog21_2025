@@ -18,7 +18,7 @@ public class CodingBankBalance{
 
                 year++;
 
-            System.out.println("Do you want to contanue for another year enter 1 for yes?: ");
+            System.out.println("Do you want to contanue for another year enter 1 for yes? enter random number for no: ");
             choice = input.next();
         }
         System.out.println("Final Balance: "+ String.format("%.2f", balance));
